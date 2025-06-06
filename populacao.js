@@ -1,4 +1,3 @@
-// Importa o módulo readline para interagir com o usuário no terminal
 const readline = require('readline');
 
 const moedas = [20, 11, 5, 1];
