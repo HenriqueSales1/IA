@@ -186,6 +186,6 @@ for (const i of populacao) {
 const vetorMelhor = melhor.getVetor();
 let output = "";
 for (const j of vetorMelhor) {
-  output += j ? "1" : "0";
+  output += j ? "1 " : "0 ";
 }
-console.log(output + " / " + melhor.getPontuacao());
+console.log(output + "/ " + melhor.getPontuacao());
