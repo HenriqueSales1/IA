@@ -100,10 +100,10 @@ class Individuo {
   }
 }
 
-const tamanhoPopulacao = 10;
+const tamanhoPopulacao = 100;
 let populacao = [];
 const tamanhoVetor = 10;
-const interacoes = 20;
+const interacoes = 300;
 
 function vetorAleatorio(tamanho) {
   const x = new Array(tamanho);
